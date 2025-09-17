@@ -1,36 +1,36 @@
 /* Activity 1: Basic CSS Properties - 25 Errors to Find */
 
 /* ERROR 1: Missing opening brace */
-body 
+<body>
     /* ERROR 2: background-color misspelled */
-    backgrund-color: lightblue;
+    background-color: lightblue;
     /* ERROR 3: Missing semicolon after property */
-    color: #333
+    color: #333;
     /* ERROR 4: font-family value not in quotes when it has spaces */
-    font-family: Arial Sans Serif;
+    font-family: ArialSans Serif;
     /* ERROR 5: margin with only 3 values (should be 1, 2, or 4) */
     margin: 10px 20px 30px;
 }
 
 /* ERROR 6: h1 selector has extra dot */
-.h1 {
+<h1> {
     /* ERROR 7: color value invalid format */
-    color: dark blue;
+    color: darkblue;
     /* ERROR 8: font-size missing unit */
-    font-size: 36;
+    font-size: 36px;
     /* ERROR 9: text-align value misspelled */
-    text-align: centres;
+    text-align: center;
 }
 
 /* ERROR 10: Missing closing brace for p selector */
-p {
+</p> {
     /* ERROR 11: line-height with wrong unit */
     line-height: 1.5px;
     /* ERROR 12: padding negative value without proper syntax */
     padding: -10px;
 
 /* ERROR 13: Selector with space in element name */
-h 2 {
+<h2> {
     /* ERROR 14: text-decoration value invalid */
     text-decoration: underlined;
     /* ERROR 15: Invalid property name */
@@ -46,14 +46,14 @@ h 2 {
 /* This is a comment that helps style the page
 h3 {
     /* ERROR 18: Duplicate semicolons */
-    color: green;;
+    color: green;
     /* ERROR 19: margin shorthand with wrong syntax */
-    margin: 10 px;
+    margin: 10px;
 }
 
 /* ERROR 20: Missing colon between property and value */
 h4 {
-    font-size 20px;
+    font-size: 20px;
     /* ERROR 21: border shorthand wrong order */
     border: red 2px;
 }
@@ -68,7 +68,7 @@ h5 {
 
 /* ERROR 24: Property with equals sign instead of colon */
 h6 {
-    color = blue;
+    color: blue;
 }
 
 /* ERROR 25: Missing closing comment */
